@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Outfit:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:url('https://cdn.glitch.me/7d85fada-6a92-4989-8975-6d6d70f06cb9%2Fd1rwjc9-426fbe6a-aed3-4460-b8cd-a175b2929eaf.jpg?v=1637696279602');
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  margin-top: 1.5%;
+}
+
+.wrapper h1 {
+  font-family: 'Roboto Mono', monospace;;
+  font-size: 55px;
+  margin-bottom: 60px;
+  -webkit-text-stroke:2.5px black;
+  text-align: center;
+}
+
+.PROJECTS{
+  display:flex;
+  TEXT-ALIGN:center;
+  width:auto;
+  justify-content:center;
+  
+}
+
+.PROJECTS .Project_done{
+  background:white;
+  margin:5px;
+  margin-bottom:50px;
+  width:300px;
+  padding:30px;
+  
+  line-height:20px;
+  color:black;
+  position:relative;
+}
+
+.PROJECTS .Project_done h3{
+  color: black;
+  font-size:26px; 
+  margin-top:2px;
+}
+
+
+.item {
+margin-top:0.5rem;
+  padding:0.9rem 2rem;
+  boder-radius:0.5rem;
+  background:blue;
+  color:white;
+  font-size:15px;
+    
+}
+.item:hover {
+  background:orange;
+  cursor:pointer;
+}
